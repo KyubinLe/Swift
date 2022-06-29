@@ -14,6 +14,7 @@ var string : String // 타입 어노테이션을 통해 명시적으로 데이�
 var character : Character = "C" // 캐릭터는 문자 하나만을 저장할 수 있습니다. 하나 이상의 문자인 경우 문자열인 String형으로 선언해야 합니다.
 var double : Double = 23.6
 var float : Float
-var 💜 : Bool  = false // 스위프트는 이모지 또한 변수명으로 인식합니다.
+var 💜 : Bool  = false // 이모지도 변수로 인식
+var uint : UInt = 10 // 부호가 없는 정수형만 가능, 음수 불가능
 
 print("Hello Swift, \(variable), \(character), \(double)")
