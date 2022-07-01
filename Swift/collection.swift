@@ -27,4 +27,16 @@ arr.insert(4, at: 0)
 arr.insert(5, at: 1)
 arr.insert(6, at: 2)
 
+arr.remove(at: 5)
+
 print(arr)
+
+
+// var dic : Dictionary<String, Int> = Dictionary<String, Int>()
+var dic : [String : Int] = ["Key1" : 1]
+dic["key2"] = 2
+dic["key3"] = 3
+dic["key2"] = 4
+
+dic.removeValue(forKey: "key2")
+print(dic)
