@@ -2,7 +2,7 @@
 //  main.swift
 //  Swift
 //
-//  Created by Kyubin Lee on 2022/06/30.
+//  Created by Kyubin Lee on 2022/07/01.
 //
 
 import Foundation
