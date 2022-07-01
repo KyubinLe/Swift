@@ -33,6 +33,9 @@ print(arr)
 
 
 // var dic : Dictionary<String, Int> = Dictionary<String, Int>()
+// dic[키] = 데이터 -> 딕셔너리에 새 값을 저장 --> 이 때 저장하는 순서는 상관없음
+// dic.updateValue("저장할 데이터", forKey: "참조 또는 저장하는데 사용할 키") -> 키가 있는지 없는지에 따라 달라지고 없으면 새로 생성한 후 nil 반환
+// dic.removeValue(forKey: "삭제할 키") -> 키값으로 딕셔너리에서 값을 삭제
 var dic : [String : Int] = ["Key1" : 1]
 dic["key2"] = 2
 dic["key3"] = 3
@@ -40,3 +43,5 @@ dic["key2"] = 4
 
 dic.removeValue(forKey: "key2")
 print(dic)
+
+var set : Set = Set<Int>() 
