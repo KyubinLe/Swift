@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A56CD846286CB0AC005653E8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56CD845286CB0AC005653E8 /* main.swift */; };
+		A56E9D6C286ED24C0070D637 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56CD845286CB0AC005653E8 /* main.swift */; };
+		A56E9D6F286ED82A0070D637 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = A56E9D6E286ED82A0070D637 /* Algorithms */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		A56CD842286CB0AC005653E8 /* Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56CD845286CB0AC005653E8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A56E9D61286CBF5D0070D637 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A56E9D6F286ED82A0070D637 /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,8 +44,9 @@
 		A56CD839286CB0AC005653E8 = {
 			isa = PBXGroup;
 			children = (
-				A56CD844286CB0AC005653E8 /* Swift */,
+				A56E9D68286ED1F00070D637 /* main */,
 				A56CD843286CB0AC005653E8 /* Products */,
+				A56CD844286CB0AC005653E8 /* Swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,10 +61,19 @@
 		A56CD844286CB0AC005653E8 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				A56CD845286CB0AC005653E8 /* main.swift */,
+				A56E9D61286CBF5D0070D637 /* data.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
+		};
+		A56E9D68286ED1F00070D637 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				A56CD845286CB0AC005653E8 /* main.swift */,
+			);
+			name = main;
+			path = /Users/kyubinlee/Documents/Develop/ios/Swift/main;
+			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
@@ -78,6 +91,9 @@
 			dependencies = (
 			);
 			name = Swift;
+			packageProductDependencies = (
+				A56E9D6E286ED82A0070D637 /* Algorithms */,
+			);
 			productName = Swift;
 			productReference = A56CD842286CB0AC005653E8 /* Swift */;
 			productType = "com.apple.product-type.tool";
@@ -106,6 +122,9 @@
 				Base,
 			);
 			mainGroup = A56CD839286CB0AC005653E8;
+			packageReferences = (
+				A56E9D6D286ED82A0070D637 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = A56CD843286CB0AC005653E8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -120,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A56CD846286CB0AC005653E8 /* main.swift in Sources */,
+				A56E9D6C286ED24C0070D637 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +303,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A56E9D6D286ED82A0070D637 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A56E9D6E286ED82A0070D637 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A56E9D6D286ED82A0070D637 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A56CD83A286CB0AC005653E8 /* Project object */;
 }
