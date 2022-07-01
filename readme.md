@@ -1,4 +1,4 @@
-# Swift 문법 공부
+**Swift 문법 공부**
 자세한 설명은 .swift파일로 확인하세요
 
 ---
@@ -14,3 +14,7 @@
 ```Swift
 정수형 : Int, UInt
 실수형 : Double, Float
+부울형 : Bool
+문자 : Character
+문자열 : String
+모든타입 : Any, AnyObject(클래스타입을 지칭하는 프로토콜)

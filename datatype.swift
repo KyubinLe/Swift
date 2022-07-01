@@ -16,6 +16,8 @@ var character : Character = "C" // 캐릭터는 문자 하나만을 저장할 �
 var double : Double = 23.6 // 64bit 부동 소수점(소수점 아래 15~16자리)
 let float : Float // 32bit 부동 소수점(소수점 아래 7~8자리)
 var 💜 : Bool  = false // 이모지도 변수로 인식
+var any : Any = 1 // 모든 타입을 저장할 수 있음
+any = "any type"
 
 
-print("Hello Swift, \(variable), \(character), \(double), 1")
+print("Hello Swift, \(variable), \(character), \(double), 1, \(any)")
