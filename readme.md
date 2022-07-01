@@ -9,4 +9,6 @@
 
 
 + DataType
-    - 정수형 : ```Swift Int, UInt
+    - 정수형 : 
+    ```Swift 
+    Int, UInt
