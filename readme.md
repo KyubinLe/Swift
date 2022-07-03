@@ -19,3 +19,10 @@
 문자 : Character
 문자열 : String
 모든타입 : Any, AnyObject(클래스타입을 지칭하는 프로토콜)
+```
+
++ Collection
+```Swift
+Array(배열) : 순서가 있는 리스트 컬렉션
+Dictionary : 순서없이 키와 값을 한쌍으로 갖고 데이터를 저장하는 타입
+Set : 동일한 자료형을 갖고 중복된 값을 허용하지 않는 타입

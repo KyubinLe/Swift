@@ -44,4 +44,8 @@ dic["key2"] = 4
 dic.removeValue(forKey: "key2")
 print(dic)
 
+
+// var set : Set = Set<데이터타입>()
 var set : Set = Set<Int>() 
+
+set
