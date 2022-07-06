@@ -46,6 +46,28 @@ print(dic)
 
 
 // var set : Set = Set<데이터타입>()
-var set : Set = Set<Int>() 
+// insert(data) -> set에 새로운 값 저장하고 이 때 set는 순서가 없음 // remove(data) -> set에 들어있는 값 삭제
+// union : 합집합으로 두 Set을 합쳐 새로운 Set을 만듭니다.
+// subtracting : 겹치는 부분을 제외하고 새로운 Set을 만듬(차집합)
+// intersect : 두 Set의 겹치는 부분으로 새로운 Set을 만듬(교집합)
+// symmetricDifference : 두 Set의 겹치는 부분을 제외한 나머지 부분으로 새로운 Set을 만듬
+var set : Set = Set<Int>()
+var sets : Set = Set<Int>()
 
-set
+
+set.insert(10)
+set.insert(10)
+set.insert(20)
+set.insert(30)
+set.insert(50)
+
+sets.insert(10)
+sets.insert(20)
+sets.insert(30)
+sets.insert(40)
+
+
+print("교집합", sets.intersection(set))
+print("합집합", sets.union(set))
+print("차집합", sets.subtracting(set))
+print("겹치는거 제외", sets.symmetricDifference(set))
