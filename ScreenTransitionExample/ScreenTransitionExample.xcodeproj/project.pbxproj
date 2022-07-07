@@ -13,6 +13,7 @@
 		A58914D02876A7FC00AB9106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58914CE2876A7FC00AB9106 /* Main.storyboard */; };
 		A58914D22876A7FD00AB9106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A58914D12876A7FD00AB9106 /* Assets.xcassets */; };
 		A58914D52876A7FD00AB9106 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58914D32876A7FD00AB9106 /* LaunchScreen.storyboard */; };
+		A58914DD2876A95B00AB9106 /* SaguePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58914DC2876A95B00AB9106 /* SaguePushViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A58914D12876A7FD00AB9106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A58914D42876A7FD00AB9106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A58914D62876A7FD00AB9106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A58914DC2876A95B00AB9106 /* SaguePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaguePushViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				A58914D12876A7FD00AB9106 /* Assets.xcassets */,
 				A58914D32876A7FD00AB9106 /* LaunchScreen.storyboard */,
 				A58914D62876A7FD00AB9106 /* Info.plist */,
+				A58914DC2876A95B00AB9106 /* SaguePushViewController.swift */,
 			);
 			path = ScreenTransitionExample;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A58914DD2876A95B00AB9106 /* SaguePushViewController.swift in Sources */,
 				A58914CD2876A7FC00AB9106 /* ViewController.swift in Sources */,
 				A58914C92876A7FC00AB9106 /* AppDelegate.swift in Sources */,
 				A58914CB2876A7FC00AB9106 /* SceneDelegate.swift in Sources */,
