@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  QuotesGenerator
 //
-//  Created by Kyubin Lee on 2022/07/06.
+//  Created by Kyubin Lee on 2022/07/07.
 //
 
 import UIKit
