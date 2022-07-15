@@ -1,10 +1,3 @@
-//
-//  data.swift
-//  Swift
-//
-//  Created by Kyubin Lee on 2022/06/30.
-//
-
 import Foundation
 
 var variable = 0 // 변수 선언(타입추론)

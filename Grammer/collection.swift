@@ -1,10 +1,3 @@
-//
-//  main.swift
-//  Swift
-//
-//  Created by Kyubin Lee on 2022/07/01.
-//
-
 import Foundation
 
 // 컬렉션 타입
