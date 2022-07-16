@@ -11,7 +11,7 @@
 ```
 
 
-+ DataType
++ 데이터타입(Data Type)
 ```Swift
 정수형 : Int, UInt
 실수형 : Double, Float
@@ -21,8 +21,20 @@
 모든타입 : Any, AnyObject(클래스타입을 지칭하는 프로토콜)
 ```
 
-+ Collection
++ 컬렉션(Collection)
 ```Swift
 Array(배열) : 순서가 있는 리스트 컬렉션
 Dictionary : 순서없이 키와 값을 한쌍으로 갖고 데이터를 저장하는 타입
 Set : 동일한 자료형을 갖고 중복된 값을 허용하지 않는 타입
+
+
++ 조건문
+```Swift
+if 문 : if 와 else 로 이루어졌는데 제일 먼저 if 로 조건을 검사한 후 조건에 맞지 않는다면 else if 가 있으면 else if 를 검사하고, 존재하지 않으면 그 외 else 로 처리
+
+---
+if 조건 {
+    실행 구문
+} else { 
+    만족하지 않는 경우 실행
+}
