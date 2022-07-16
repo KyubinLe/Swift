@@ -50,3 +50,30 @@ print(stock)
 print(stock.purchasePrice)
 stock.purchasePrice = 3000
 print(stock.averagePrice)
+
+
+class Account {
+    var credit : Int = 0 {
+        willSet { // 값이 저장되기 직전 호출
+            print("잔액이 \(credit)원에서 \(newValue)원으로 변경될 예정")
+        }
+        didSet { // 값이 저장된 직후 호출
+            print("잔액이 \(oldValue)원에서 \(credit)원으로 변경됨")
+        }
+    }
+}
+
+var account = Account()
+account.credit = 1000
+
+struct SomeStructure {
+    static var storedTypeProperty = "Some Value" // 스토어
+    static var computedTypeProperty : Int {
+        return 1
+    }
+}
+
+SomeStructure.computedTypeProperty
+SomeStructure.storedTypeProperty = "hello"
+
+print(SomeStructure.storedTypeProperty)
