@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A51BE0352882CAC600D1E144 /* SaguePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BE0342882CAC600D1E144 /* SaguePresentViewController.swift */; };
+		A5702DDB2882D7B100BBF6B5 /* CodePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5702DDA2882D7B100BBF6B5 /* CodePushViewController.swift */; };
 		A58914C92876A7FC00AB9106 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58914C82876A7FC00AB9106 /* AppDelegate.swift */; };
 		A58914CB2876A7FC00AB9106 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58914CA2876A7FC00AB9106 /* SceneDelegate.swift */; };
 		A58914CD2876A7FC00AB9106 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58914CC2876A7FC00AB9106 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A51BE0342882CAC600D1E144 /* SaguePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaguePresentViewController.swift; sourceTree = "<group>"; };
+		A5702DDA2882D7B100BBF6B5 /* CodePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePushViewController.swift; sourceTree = "<group>"; };
 		A58914C52876A7FC00AB9106 /* ScreenTransitionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenTransitionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58914C82876A7FC00AB9106 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A58914CA2876A7FC00AB9106 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				A58914D32876A7FD00AB9106 /* LaunchScreen.storyboard */,
 				A58914D62876A7FD00AB9106 /* Info.plist */,
 				A58914DC2876A95B00AB9106 /* SaguePushViewController.swift */,
+				A51BE0342882CAC600D1E144 /* SaguePresentViewController.swift */,
+				A5702DDA2882D7B100BBF6B5 /* CodePushViewController.swift */,
 			);
 			path = ScreenTransitionExample;
 			sourceTree = "<group>";
@@ -142,6 +148,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A58914DD2876A95B00AB9106 /* SaguePushViewController.swift in Sources */,
+				A5702DDB2882D7B100BBF6B5 /* CodePushViewController.swift in Sources */,
+				A51BE0352882CAC600D1E144 /* SaguePresentViewController.swift in Sources */,
 				A58914CD2876A7FC00AB9106 /* ViewController.swift in Sources */,
 				A58914C92876A7FC00AB9106 /* AppDelegate.swift in Sources */,
 				A58914CB2876A7FC00AB9106 /* SceneDelegate.swift in Sources */,
