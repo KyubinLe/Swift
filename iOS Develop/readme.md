@@ -1,11 +1,9 @@
 **ViewController Life Cycle**
-- viewDidLoad()
-
+- viewDidLoad()<br>
     뷰 컨트롤러의 모든 뷰들이 메모리에 로드된 후 호출되고 메모리에 처음 로드될 때 1회만 호출되며 <br>
     시스템에 의해 자동으로 호출되어 초기화 작업 또는 초기화면 구성할 때 사용됨
 
-- viewWillAppear()
-    
+- viewWillAppear()<br>
     뷰가 뷰 계층에 추가되고 화면에 보이기 직전에 호출되는 메소드이고, <br>
     다른 뷰로 이동 후 되돌아오면 재호출되어 화면이 나타날 때 마다 수행해야 하는 작업을 주로 작성
     
