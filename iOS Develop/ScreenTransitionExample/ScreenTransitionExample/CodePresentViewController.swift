@@ -1,6 +1,8 @@
 import UIKit
 
 class CodePresentViewController: UIViewController {
+    @IBOutlet var nameLabel: UILabel!
+    var name : String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
